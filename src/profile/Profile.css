@@ -1,0 +1,51 @@
+.card {
+  padding-top: 20px;
+  margin: 10px 0 20px 0;
+  background-color: rgba(214, 224, 226, 0.2);
+  border-top-width: 0;
+  border-radius: 10px;
+  width: 500px;
+}
+
+.card.hovercard {
+  position: relative;
+  padding-top: 0;
+  overflow: hidden;
+  text-align: center;
+  background-color: rgba(214, 224, 226, 0.2);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
+}
+
+.card.hovercard .cardheader {
+  background: url("http://lorempixel.com/850/280/nature/4/");
+  background-size: cover;
+  height: 150px;
+}
+
+.card.hovercard .avatar {
+  position: relative;
+  top: -100px;
+  margin-bottom: -100px;
+}
+
+.card.hovercard .info {
+  padding: 4px 8px 10px;
+}
+
+.card.hovercard .bottom {
+  padding: 0 20px;
+  margin-bottom: 17px;
+}
+
+.btn-sm {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  margin: 5px;
+}
+.btn-profile {
+  border-color: #553434;
+  border-width: 2px;
+  color: #553434;
+}
